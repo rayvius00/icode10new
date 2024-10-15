@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(200, 182, 255) 0%, rgb(0, 21, 128) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    opacity: 50%;
+}
+.container{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+}
+.container h1{
+    padding: 20px 15px 20px 15px;
+}
+.container .apps{
+    font-size: 14px;
+    padding: 0 15px;
+    color: rgba(2, 2, 52, 0.537);
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .apps .row1{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container .apps .row2 {
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+img{
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+}
+
+.container .apps .row1 .box{
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+}
+.container .apps .row2 .box{
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+}
+.box:hover {
+    box-shadow: 0 5px 30px 0 rgba(30, 14, 123, 0.511);
+    font-size: 18px;
+}
+button{
+    margin: 10px 10px 10px 15px;
+    width: 320px;
+    height: 45px;
+    border: none;
+    background-color: #020b3b;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+.box .green1 button{
+    width: 95px;
+    height: 25px;
+    position: absolute;
+    right: 815px;
+    top: 300px;
+    background-color: #7ed320;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.box:hover button{
+    display: block;
+    z-index: 2;
+}
+.box .green2 button{
+    width: 95px;
+    height: 25px;
+    position: absolute;
+    right: 715px;
+    top: 300px;
+    background-color: #7ed320;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.box:hover button{
+    display: block;
+    z-index: 2;
+}
+.box .green3 button{
+    width: 105px;
+    height: 25px;
+    position: absolute;
+    right: 599px;
+    top: 300px;
+    background-color: #7ed320;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.box:hover button{
+    display: block;
+    z-index: 2;
+}
+.box .green4 button{
+    width: 95px;
+    height: 25px;
+    position: absolute;
+    left: 596px;
+    bottom: 250px;
+    background-color: #7ed320;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.box:hover button{
+    display: block;
+    z-index: 2;
+}
+.box .green5 button{
+    width: 95px;
+    height: 25px;
+    position: absolute;
+    right: 715px;
+    bottom: 247px;
+    background-color: #7ed320;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.box:hover button{
+    display: block;
+    z-index: 2;
+}
+.box .green6 button{
+    width: 95px;
+    height: 25px;
+    position: absolute;
+    left: 802px;
+    bottom: 247px;
+    background-color: #7ed320;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.box:hover button{
+    display: block;
+    z-index: 2;
+}
